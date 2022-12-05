@@ -1,5 +1,6 @@
 from file_reader import file_to_list
 
+
 def part1(file):
     lijst = file_to_list(file)
     return "Not solved yet"
