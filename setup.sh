@@ -14,7 +14,7 @@ year=$(date -u +"%Y")
 while getopts ":y:" opt
 do
 	case $opt in
-		y)	year=$OPTARG
+		y )	year=$OPTARG
 			;;
 		\?)	syntaxError
 			;;
